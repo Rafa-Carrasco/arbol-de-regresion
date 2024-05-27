@@ -210,4 +210,6 @@ print("Precisión en el conjunto de prueba:", accuracy)
 print("\nReporte de clasificación:")
 print(classification_report(y_test, y_pred))
 
-# modelo mejorado en 0.4
+dump(model, open("decision_tree_classifier_tweaked_40.sav", "wb"))
+
+# modelo mejorado en accuracy de 0.747 a 0.785
